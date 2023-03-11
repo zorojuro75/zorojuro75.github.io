@@ -16,7 +16,6 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 30px;
-    margin: 0 30px 30px;
 }
 .navbar .list{
     display: flex;
@@ -71,14 +70,14 @@ header{
 .home .contact{
     margin: 50px 0 0;  
 }
-.home .contact a{
+.contact a{
     color:rgb(100, 255, 218);
     padding: 20px 28px;
     font-size: 14px;
     border: 1px solid rgb(100, 255, 218);
     border-radius: 5px;
 }
-.home .contact a:hover{
+.contact a:hover{
     background-color: rgb(14, 112, 89);
 }
 /* about me section  */
@@ -127,4 +126,22 @@ header{
 
 .list1 li, .list2 li{
     padding-bottom: 1rem;
+}
+.contact-me{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-me p{
+    padding: 5rem;
+    color: aqua;
+}
+.contact-me h3{
+    color: #CCD6F6;
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 0 40px;
 }
