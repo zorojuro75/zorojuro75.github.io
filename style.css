@@ -1,0 +1,128 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    background: #0a192f;
+    text-decoration: none;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+}
+/* navbar css */
+header{
+    position: fixed;
+    width: 100%;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+    margin: 0 30px 30px;
+}
+.navbar .list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .list li{
+    padding: 10px 12px;
+    list-style: none;
+}
+.navbar .list li a{
+    color: rgb(204, 214, 246);
+    font-size: 16px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+}
+.logo a{
+    color: rgb(204, 214, 246);
+    font-size: 48px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+}
+.logo a span{
+    color: rgb(147, 36, 19);
+}
+.navbar .list li:hover{
+    background: #000;
+    transition: 15ms;
+}
+/* home section css  */
+.home{
+    padding: 200px 150px;
+}
+.home .overline{
+    color: rgb(100, 255, 218);
+    font-size: 20px;
+    margin: 0 0 20px 3px;
+}
+.home .title{
+    color: #CCD6F6;
+    font-size: 80px;
+    font-family: Calibri;
+}
+.home .subtitle{
+    color: #8892B0;
+    font-size: 80px;
+    font-family: Calibri;
+}
+.home .description{
+    margin: 25px 0 0;
+    color: #8892B0;
+    font-size: 20px;
+}
+.home .contact{
+    margin: 50px 0 0;  
+}
+.home .contact a{
+    color:rgb(100, 255, 218);
+    padding: 20px 28px;
+    font-size: 14px;
+    border: 1px solid rgb(100, 255, 218);
+    border-radius: 5px;
+}
+.home .contact a:hover{
+    background-color: rgb(14, 112, 89);
+}
+/* about me section  */
+.about-me{
+    padding: 150px 150px;
+    
+}
+.about{
+    display: flex;
+}
+.about .text{
+    margin-right: 150px;
+    width: 50%;
+}
+.about-me h3{
+    color: #CCD6F6;
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 0 40px;
+}
+.about-me .text p{
+    padding: 0 0 15px;
+    color: #CCD6F6;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about-me .text p span{
+    color: rgb(100, 255, 218);
+}
+.image img{
+    height: 300px;
+}
+.skills{
+    display: flex;
+    color: rgb(100, 255, 218);
+    font-size: 18px;
+}
+.list1, .list2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    list-style: none;
+}
+
+.list1 li, .list2 li{
+    padding-bottom: 1rem;
+}
