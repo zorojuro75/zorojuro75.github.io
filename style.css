@@ -152,6 +152,9 @@ header{
     .home .title, .home .subtitle{
         font-size: 70px;
     }
+    .image img{
+        height: 300px;
+    }
 }
 @media screen and (max-width: 950px){
     .home{
@@ -164,6 +167,17 @@ header{
     }
     .home .title, .home .subtitle{
         font-size: 10vw;
+    }
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .about .text{
+        margin-right: 0;
+        width: 100%;
+    }
+    .image img{
+        margin-bottom: 30px;
     }
 }
 @media screen and (max-width: 600px) {
