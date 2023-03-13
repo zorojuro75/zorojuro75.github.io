@@ -1,4 +1,6 @@
-
+html{
+    scroll-behaviour:smooth;
+}
 * {
     padding: 0;
     margin: 0;
