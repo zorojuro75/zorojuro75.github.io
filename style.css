@@ -1,5 +1,5 @@
 html{
-    scroll-behaviour:smooth;
+    scroll-behavior:smooth;
 }
 * {
     padding: 0;
@@ -216,7 +216,7 @@ header{
         display: block;
     }
     .projects .projectlist img{
-        height: auto;
+        height: 250px;
         width: 300px;
     }
   }
