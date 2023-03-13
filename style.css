@@ -213,4 +213,8 @@ header{
     .projectlist{
         display: block;
     }
+    .projects .projectlist img{
+        height: auto;
+        width: 300px;
+    }
   }
