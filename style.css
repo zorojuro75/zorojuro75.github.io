@@ -172,6 +172,21 @@ header{
     background-color: rgb(0, 68, 68);
     margin: 1rem 1rem 0rem 0rem;
 }
+footer{
+    display: flex;
+    background: #07101f;
+    color: aquamarine;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+footer p, footer p a{
+    background: #07101f;
+}
+footer p a{
+    text-decoration: none;
+    color: aquamarine;
+}
 /* for mobile devices  */
 @media screen and (max-width: 1040px){
     .home .title, .home .subtitle{
@@ -205,7 +220,7 @@ header{
         margin-bottom: 30px;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 575px) {
     body{
         background: #fff;
     }
