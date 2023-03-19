@@ -1,23 +1,21 @@
-html{
-    scroll-behavior:smooth;
-}
 * {
     padding: 0;
     margin: 0;
     background: #0a192f;
+    scroll-behavior:smooth;
     text-decoration: none;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
 }
-/* navbar css */
 header{
     position: fixed;
     width: 100%;
 }
 .navbar {
+    background: #07101f;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 30px;
+    padding: 20px 30px;
 }
 .navbar .list{
     display: flex;
@@ -25,20 +23,22 @@ header{
     align-items: center;
 }
 .navbar .list li{
+    background: #07101f;
     padding: 10px 12px;
     list-style: none;
 }
 .navbar .list li a{
+    background: #07101f;
     color: rgb(204, 214, 246);
     font-size: 16px;
-    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
 }
 .logo a{
+    background: #07101f;
     color: rgb(204, 214, 246);
     font-size: 48px;
-    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
 }
 .logo a span{
+    background: #07101f;
     color: rgb(147, 36, 19);
 }
 .navbar .list li:hover{
@@ -82,7 +82,6 @@ header{
 .contact a:hover{
     background-color: rgb(14, 112, 89);
 }
-/* about me section  */
 .about{
     display: flex;
 }
@@ -106,7 +105,7 @@ header{
     color: rgb(100, 255, 218);
 }
 .image img{
-    height: 400px;
+    height: 350px;
     border: 5px solid rgb(100, 255, 218);
     border-radius: 10px;
 }
@@ -155,14 +154,11 @@ header{
     font-family: sans-serif;
     margin: 0.5rem 0;
 }
-.projectlist{
+.projectlist, .project-details .tech{
     display: flex;
 }
 .project-details{
     margin: 2rem;
-}
-.project-details .tech{
-    display: flex;
 }
 .project-details .tech div{
     padding:0.5rem 1rem;
@@ -175,35 +171,20 @@ header{
 footer{
     display: flex;
     background: #07101f;
-    color: aquamarine;
     height: 10vh;
     justify-content: center;
     align-items: center;
 }
 footer p, footer p a{
-    background: #07101f;
-}
-footer p a{
-    text-decoration: none;
     color: aquamarine;
-}
-/* for mobile devices  */
-@media screen and (max-width: 1040px){
-    .home .title, .home .subtitle{
-        font-size: 70px;
-    }
-    .image img{
-        height: 300px;
-    }
+    background: #07101f;
 }
 @media screen and (max-width: 950px){
     .home{
-        padding-top: 150px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding: 150px 30px 0;
     }
     .about-me, .projects{
-        padding: 100px 30px;
+        padding: 75px 30px;
     }
     .home .title, .home .subtitle{
         font-size: 10vw;
@@ -217,13 +198,11 @@ footer p a{
         width: 100%;
     }
     .image img{
+        height: 300px;
         margin-bottom: 30px;
     }
 }
 @media screen and (max-width: 575px) {
-    body{
-        background: #fff;
-    }
     .navbar .list{
         display: none;
     }
